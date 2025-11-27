@@ -1,0 +1,122 @@
+.container {
+  display: grid;
+  grid-template-columns: 20% 90%;
+  /* gap: 137px; */
+}
+
+.title {
+  background-image: url(images/avatar.png);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 800px;
+  padding-left: 24px;
+}
+
+.article-recherche {
+  padding-left: 24px;
+}
+
+.recherche input:first-child {
+  background-image: url(images/search.svg);
+  background-position: left;
+  padding: 16px;
+  width: 200px;
+}
+
+.recherche input {
+  background-image: url(images/chervon-bas.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #dadee7;
+  border-radius: 5px;
+  padding: 16px;
+  width: 100px;
+}
+
+#bouton1 {
+  border: none;
+  background: linear-gradient(180deg, #1b4cb9 0%, #193677 100%);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 16px;
+  width: 100px;
+}
+
+#bouton2 {
+  background-image: url(images/add-01\ .svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  color: black;
+  margin-left: 190px;
+  border: none;
+  background-color: #f7cb48;
+  border-radius: 5px;
+  padding: 16px;
+  width: 100px;
+}
+
+.title {
+  border: 1px solid #d8dee7;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.images-article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.image img {
+  width: 100%;
+}
+
+.image {
+  border: 1px solid #d8dee7;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.texte {
+  padding-left: 20px;
+}
+
+.texte h5 {
+  font-size: 12px;
+  color: #265bca;
+}
+
+.texte h4 {
+  font-size: 16px;
+  width: 300px;
+}
+
+.texte p {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.menu-principal {
+  display: block;
+  background-image: url(images/background-sidebar.svg);
+  padding-left: 24px;
+}
+
+.sous-menu {
+  margin-bottom: 24px;
+}
+
+.logout {
+  margin-top: 560px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+
+.logo img {
+  width: 70px;
+}

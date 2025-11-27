@@ -1,0 +1,103 @@
+.container {
+  max-width: 1080px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 137px;
+}
+
+input,
+label,
+button {
+  display: block;
+}
+
+.logo {
+  padding-top: 74px;
+  padding-bottom: 30px;
+}
+
+.title {
+  padding-bottom: 15px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.field-1 label,
+.field-2 label {
+  color: #656b78;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.field-1 input {
+  background-image: url(images/mail.svg);
+}
+
+.field-2 input {
+  background-image: url(images/security-lock.svg);
+}
+
+.field-1 input,
+.field-2 input {
+  margin-bottom: 24px;
+  width: calc(100% - 30px);
+  border: 1px solid #dadee7;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding: 16px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px;
+}
+
+.form button {
+  width: 100%;
+  padding: 20px;
+  background-color: #f7cb48;
+  border: none;
+  border-radius: 5px;
+}
+
+.form p {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.image {
+  background-image: url(images/image-connexion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image img,
+.image h2,
+.image p {
+  margin-left: 45px;
+}
+
+.image h2 {
+  color: #ffffff;
+  font-style: Bold;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.image p {
+  color: #c3c3c3;
+  width: 600px;
+  margin-bottom: 77px;
+  line-height: 36px;
+}
+
+.image img {
+  width: 66px;
+  height: 66px;
+  margin-top: 300px;
+}
